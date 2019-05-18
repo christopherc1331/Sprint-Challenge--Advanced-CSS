@@ -1,1 +1,26 @@
 // Navigation code here
+
+.navigation {
+    .ctr-flx;
+    height: 90px;
+    width: 100%;
+    padding-top: 5px;
+    color: @header-font-color;
+    background-color: @wild-sand;
+    border-bottom: @sea-shell solid;
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        width: 300px;
+        @media @phone {
+            width: 95%;
+            justify-content: space-around;
+        }
+        a {
+            text-decoration: none;
+            color: @header-font-color;
+        }
+    }
+}
