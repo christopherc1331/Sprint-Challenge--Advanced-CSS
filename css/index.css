@@ -193,7 +193,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  width: 300px;
+  max-width: 300px;
 }
 @media (max-width: 500px) {
   .navigation nav {
@@ -228,6 +228,7 @@ footer {
 .home .top-img {
   margin-top: 90px;
   border-radius: 5px;
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
