@@ -1,1 +1,24 @@
 // Navigation code here
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding-top: 5px;
+    color: @header-font-color;
+    background-color: @wild-sand;
+    border-bottom: @sea-shell solid;
+    nav {
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        padding: 10px 0;
+        a {
+            text-decoration: none;
+            color: @header-font-color;
+        }
+    }
+}
